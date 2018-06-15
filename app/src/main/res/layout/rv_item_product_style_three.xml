@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              style="@style/MatchWrap.Vertical"
+              android:background="@drawable/ripple_bg">
+
+
+    <LinearLayout
+        style="@style/MatchWrap.Horizontal">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="6dp"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+
+            tools:text="标题标题标题标题标题标题标题标题标题标题标题标题标题"/>
+
+        <ImageView
+            android:id="@+id/iv_tuijian"
+            style="@style/WrapWrap"
+            android:src="@mipmap/icon_hot"
+            tools:ignore="ContentDescription"/>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/line_vertical_1dp"/>
+
+
+    <RelativeLayout
+        style="@style/MatchWrap">
+
+        <TextView
+            android:id="@+id/tv_edu"
+            style="@style/WrapWrap"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/red"
+
+            tools:text="10-20万元"/>
+
+        <TextView
+            style="@style/WrapWrap"
+            android:layout_below="@+id/tv_edu"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="2dp"
+            android:text="可贷金额(元)"
+            android:textSize="13sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            style="@style/WrapWrap"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shap_apply"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/immediately_apply"
+            android:textColor="@color/tab_font_bright"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/tv_qixian"
+            style="@style/WrapWrap"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_toStartOf="@+id/tv_confirm"
+            android:textColor="@color/black"
+            tools:text="期限范围1-36月"/>
+
+
+        <TextView
+            android:layout_below="@+id/tv_qixian"
+            android:id="@+id/tv_lilv"
+            style="@style/WrapWrap"
+            android:layout_marginTop="2dp"
+            android:layout_alignStart="@+id/tv_qixian"
+            android:layout_toStartOf="@+id/tv_confirm"
+            android:textColor="@color/black"
+            tools:text="日利率3.6%"/>
+
+
+        <TextView
+            android:id="@+id/tv_apply_num"
+            style="@style/WrapWrap"
+            android:layout_alignStart="@+id/tv_lilv"
+            android:layout_below="@+id/tv_lilv"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="6dp"
+            android:textSize="13sp"
+            tools:text="申请人数2222"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/line_vertical_10dp"/>
+
+
+
+</LinearLayout>

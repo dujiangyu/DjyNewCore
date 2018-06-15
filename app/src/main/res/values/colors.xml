@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_font_h">#666666</color>
+
+    <color name="tab_font_bright">#666666</color>
+    <color name="tab_font_bright50">#666666</color>
+    <color name="tab_font">#666666</color>
+
+
+    <color name="blue">#119EFA</color>
+    <color name="grey_line">#EEEEEE</color>
+
+    <color name="black">#000000</color>
+    <color name="guid_text_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="white50">#50ffffff</color>
+    <color name="dialog_bg">#8f000000</color>
+    <color name="blue_deep">#115CEF</color>
+    <color name="main_bg">#F3F3F3</color>
+    <color name="grey_home">#EEEEEE</color>
+    <color name="red">#ff0036</color>
+    <color name="yellow">#FFCC33</color>
+    <color name="yellow50">#50FFCC33</color>
+</resources>
