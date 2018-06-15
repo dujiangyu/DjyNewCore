@@ -13,9 +13,9 @@
     <string name="home_tab_accurate">精准</string>
 
     <!-- 联系我们 -->
-    <string name="tel_num" tools:ignore="TypographyDashes">15736177295</string>
     <string name="cancel">取消</string>
     <string name="call">呼叫</string>
+    <string name="tel_num" tools:ignore="TypographyDashes">15736177295</string>
 
     <!-- 空布局 -->
     <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
@@ -125,6 +125,6 @@
     <string name="clause_9">9.</string>
     <string name="about_us_text">111</string>
 
-    <string name="about_bottom">Copyright@中鼎国泰（北京）金融外包服务有限公司 ALL Rights Reserved</string>
+    <string name="about_bottom">Copyright@重庆酷旺科技有限公司 ALL Rights Reserved</string>
 
 </resources>
