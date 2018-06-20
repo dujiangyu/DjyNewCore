@@ -15,7 +15,7 @@
     <!-- 联系我们 -->
     <string name="cancel">取消</string>
     <string name="call">呼叫</string>
-    <string name="tel_num" tools:ignore="TypographyDashes">15736177295</string>
+    <string name="tel_num" tools:ignore="TypographyDashes">15723372456</string>
 
     <!-- 空布局 -->
     <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
